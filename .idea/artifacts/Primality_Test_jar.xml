@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Primality Test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Primality_Test_jar</output-path>
+    <root id="archive" name="Primality Test.jar">
+      <element id="module-output" name="Primality Test" />
+    </root>
+  </artifact>
+</component>

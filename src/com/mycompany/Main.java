@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("Enter natural number:");
         Scanner in=new Scanner(System.in);
         BigInteger testNumber=in.nextBigInteger();
@@ -17,6 +17,7 @@ public class Main {
             System.out.println("Number "+testNumber+" is not Prime");
 
         }
+        Thread.sleep(30000);
 
     }
 
